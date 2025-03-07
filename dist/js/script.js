@@ -1,5 +1,11 @@
+window.onload = function () {
+  document.getElementById("hero-left").classList.remove("slide-in-right");
+  document.getElementById("hero-left").classList.add("slide-in-right-active");
+  document.getElementById("hero-right").classList.remove("slide-in-left");
+  document.getElementById("hero-right").classList.add("slide-in-left-active");
+};
 window.onscroll = function () {
-  const header = document.querySelector("header");
+  const header = document.getElementById("headers");
   const fixedNav = header.offsetTop;
   const about = document.getElementById("about");
   const skill = document.getElementById("skill");
@@ -8,7 +14,7 @@ window.onscroll = function () {
   const todolist = document.getElementById("todolist");
   const nizamart = document.getElementById("nizamart");
 
-  if (window.scrollY > fixedNav) {
+  if (window.scrollY > 0) {
     header.classList.add("navbar-fixed");
   } else {
     header.classList.remove("navbar-fixed");
@@ -52,12 +58,7 @@ window.onscroll = function () {
     nizamart.classList.add("scale-small-active");
   }
 };
-window.onload = function () {
-  document.getElementById("hero-left").classList.remove("slide-in-right");
-  document.getElementById("hero-left").classList.add("slide-in-right-active");
-  document.getElementById("hero-right").classList.remove("slide-in-left");
-  document.getElementById("hero-right").classList.add("slide-in-left-active");
-};
+
 const hamburg = document.querySelector("#hamburger");
 const navbar = document.querySelector("#navbar");
 hamburg.addEventListener("click", function () {
