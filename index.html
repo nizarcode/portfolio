@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nizaru</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dist/style.css" />
+  </head>
+  <body class="bg-gray-900 selection:bg-cyan-500">
+    <!-- Navbar Start -->
+    <header
+      class="bg-transparent items-center absolute w-full top-0 left-0 z-50"
+    >
+      <div class="container">
+        <div class="flex justify-between items-center relative">
+          <div class="px-2 group">
+            <a
+              href="#home"
+              class="block text-lg tracking-wider font-semibold font-outfit text-cyan-400 py-4 hover:drop-shadow-[0_2px_2px_rgba(0,255,255,0.5)] text duration-300 transition"
+              ><img
+                src="./dist/img/nizar-logo-cyan.png"
+                class="w-10 -mt-1 inline"
+                alt="nizar-logo"
+              />Nizar</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" class="block absolute right-4 lg:hidden">
+              <span class="hamburger-line origin-top-left"></span>
+              <span class="hamburger-line"></span>
+              <span class="hamburger-line origin-bottom-left"></span>
+            </button>
+            <nav
+              id="navbar"
+              class="hidden absolute py-4 bg-gray-700 shadow-lg rounded-lg transition duration-300 max-w-[230px] lg:max-w-full w-full right-4 top-full lg:block lg:static lg:rounded-none lg:shadow-none lg:bg-transparent"
+            >
+              <ul class="block lg:flex font-montserrat">
+                <li
+                  class="group lg:after:content-[''] lg:after:block lg:after:scale-x-0 lg:after:h-0.5 rounded-full origin-left lg:after:bg-cyan-400 lg:after:transition-all lg:after:duration-500 lg:hover:after:scale-x-50"
+                >
+                  <a
+                    href="#home"
+                    class="text-gray-300 active:scale-75 text-base group-hover:text-cyan-400 flex py-2 transition duration-500 mx-8 group-active:text-cyan-700"
+                    >Home</a
+                  >
+                </li>
+                <li
+                  class="group lg:after:content-[''] lg:after:block lg:after:scale-x-0 lg:after:h-0.5 rounded-full origin-left lg:after:bg-cyan-400 lg:after:transition-all lg:after:duration-500 lg:hover:after:scale-x-50"
+                >
+                  <a
+                    href="#about"
+                    class="text-gray-300 active:scale-75 text-base group-hover:text-cyan-400 flex py-2 transition duration-500 mx-8 group-active:text-cyan-700"
+                    >About</a
+                  >
+                </li>
+                <li
+                  class="group lg:after:content-[''] lg:after:block lg:after:scale-x-0 lg:after:h-0.5 rounded-full origin-left lg:after:bg-cyan-400 lg:after:transition-all lg:after:duration-500 lg:hover:after:scale-x-50"
+                >
+                  <a
+                    href="#skill"
+                    class="text-gray-300 active:scale-75 text-base group-hover:text-cyan-400 flex py-2 transition duration-500 mx-8 group-active:text-cyan-700"
+                    >Skill</a
+                  >
+                </li>
+                <li
+                  class="group lg:after:content-[''] lg:after:block lg:after:scale-x-0 lg:after:h-0.5 rounded-full origin-left lg:after:bg-cyan-400 lg:after:transition-all lg:after:duration-500 lg:hover:after:scale-x-50"
+                >
+                  <a
+                    href="#portfolio"
+                    class="text-gray-300 active:scale-75 text-base group-hover:text-cyan-400 flex py-2 transition duration-500 mx-8 group-active:text-cyan-700"
+                    >Portfolio</a
+                  >
+                </li>
+                <li
+                  class="group lg:after:content-[''] lg:after:block lg:after:scale-x-0 lg:after:h-0.5 rounded-full origin-left lg:after:bg-cyan-400 lg:after:transition-all lg:after:duration-500 lg:hover:after:scale-x-50"
+                >
+                  <a
+                    href="#contact"
+                    class="text-gray-300 active:scale-75 text-base group-hover:text-cyan-400 flex py-2 transition duration-500 mx-8 group-active:text-cyan-700"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Language Section Start -->
+    <div class="pt-16 flex justify-end items-center me-2 md:pt-24">
+      <h4 class="text-sm text-slate-500 font-outfit">Language :</h4>
+      <a href="#" class="mx-[3px]">
+        <img
+          src="./dist/img/usa-flag.png"
+          width="25px"
+          class="shadow-sm shadow-cyan-500 border-cyan-400 border-2"
+          alt=""
+        />
+      </a>
+      <a href="jp.html" class="mx-[3px]">
+        <img src="./dist/img/jp-flag.png" width="23px" alt="japan" />
+      </a>
+    </div>
+    <!-- Language Section Etart -->
+
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-16">
+      <div class="container items-center">
+        <div class="flex flex-wrap">
+          <div
+            id="hero-left"
+            class="w-full self-center px-4 md:w-1/2 lg:w-1/2 slide-in-right translate-x-96"
+          >
+            <div class="border-l-4 border-cyan-500 pl-4">
+              <h5 class="text-base md:text-2xl text-gray-300 font-montserrat">
+                Hello, My name
+              </h5>
+              <h1
+                class="text-3xl md:text-5xl font-outfit text-gray-300 font-semibold"
+              >
+                Ahmad <span class="text-cyan-600">Nizar</span>
+              </h1>
+              <h4
+                class="text-base text-gray-500 pt-2 font-bold font-montserrat md:text-xl"
+              >
+                Fullstack Developer | Software Engineer
+              </h4>
+            </div>
+            <p class="pt-9 text-left mb-12 text-gray-300">
+              I'm Software developer from Jakarta, ID. I Create custom Websites
+              and Mobile apps to help businesses do better online. I look
+              forward to collaborating with you.
+            </p>
+            <a
+              href="#contact"
+              class="py-3 inline-block px-7 bg-cyan-500 rounded-full font-semibold text-gray-50 hover-style transition duration-500"
+              >Contact Me</a
+            >
+          </div>
+          <div
+            id="hero-right"
+            class="w-full pt-10 self-end md:w-1/2 lg:w-1/2 h-full slide-in-left"
+          >
+            <div
+              class="img-hero blob-animate w-60 h-60 bg-cover bg-center mx-auto transition bg-cyan-400 ease-in-out animate-blob shadow-lg shadow-cyan-500 md:shadow-xl md:shadow-cyan-500 md:w-96 md:h-96"
+              style="background-image: url('./dist/img/nizar-profile.jpeg')"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-16 slide-in-bottom">
+      <div class="container">
+        <div class="w-full mx-auto text-center">
+          <h3
+            class="green-unline tracking-wider text-gray-300 text-xl font-outfit md:text-2xl font-semibold"
+          >
+            About <span class="text-cyan-500">Me</span>
+          </h3>
+          <p class="m-6 text-justify text-gray-400 font-normal font-montserrat">
+            Hello, Nice to meet you !<br />"I'm
+            <span class="text-cyan-400">Nizar</span>, a software engineer
+            hailing from the vibrant archipelago of Indonesia. With a Bachelor's
+            degree in Computer Science, I'm not just a coder; I'm a digital
+            architect, crafting solutions that bridge the gap between
+            imagination and reality. My linguistic toolkit includes fluency in
+            English, Japanese, and Indonesian, allowing me to connect with
+            people and ideas from diverse corners of the globe.<br />I thrive on
+            the thrill of discovery, constantly seeking out new technologies and
+            methodologies to expand my horizons. The tech world is my
+            playground, and I'm always eager to explore its uncharted
+            territories. I believe that innovation is the heartbeat of progress,
+            and I'm passionate about contributing my skills to build a better,
+            more connected future. Let's collaborate and create something
+            extraordinary! 👋🏻"
+          </p>
+          <div class="w-full text-center mx-auto">
+            <a
+              href="https://github.com/nizarcode"
+              class="inline-block mx-[10px] md:mx-8 w-4"
+              target="_blank"
+            >
+              <svg
+                viewBox="0 0 20 20"
+                class="w-6 md:w-8 media-hover"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                fill="#06B6D4"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <title>github</title>
+                  <defs></defs>
+                  <g
+                    id="Page-1"
+                    stroke="none"
+                    stroke-width="1"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <g
+                      id="Dribbble-Light-Preview"
+                      transform="translate(-140.000000, -7559.000000)"
+                      fill="#06B6D4"
+                    >
+                      <g
+                        id="icons"
+                        transform="translate(56.000000, 160.000000)"
+                      >
+                        <path
+                          d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
+                          id="github-[#142]"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <a
+              href="https://x.com/ni_za_ru/"
+              class="inline-block mx-[10px] md:mx-8 w-4"
+              target="_blank"
+            >
+              <svg
+                role="img"
+                class="w-6 md:w-8 media-hover"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>X</title>
+                <path
+                  fill="#06B6D4"
+                  d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"
+                />
+              </svg>
+            </a>
+            <a
+              href="http://line.me/ti/p/~nizar_neko"
+              class="inline-block mx-[10px] md:mx-8 w-4"
+              target="_blank"
+            >
+              <svg
+                viewBox="0 -55 256 256"
+                class="w-6 md:w-8 media-hover"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                preserveAspectRatio="xMidYMid"
+                fill="#06B6D4"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g>
+                    <path
+                      d="M72.2009141,1.42108547e-14 C112.076502,1.42108547e-14 144.399375,32.5485469 144.399375,72.6964154 C144.399375,112.844284 112.074049,145.390378 72.2009141,145.390378 C32.327779,145.390378 0,112.844284 0,72.6964154 C0,32.5485469 32.325326,1.42108547e-14 72.2009141,1.42108547e-14 Z M187.500628,4.25836743 C207.438422,4.25836743 223.601085,34.8960455 223.601085,72.6964154 L223.603538,72.6964154 C223.603538,110.486973 207.440875,141.134463 187.503081,141.134463 C167.565287,141.134463 151.402624,110.486973 151.402624,72.6964154 C151.402624,34.9058574 167.562834,4.25836743 187.500628,4.25836743 Z M243.303393,11.3867175 C250.314,11.3867175 256,38.835526 256,72.6964154 C256,106.547493 250.316453,134.006113 243.303393,134.006113 C236.290333,134.006113 230.609239,106.554852 230.609239,72.6964154 C230.609239,38.837979 236.292786,11.3867175 243.303393,11.3867175 Z"
+                      fill="#06B6D4"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <a
+              href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=ahmadnizar238@gmail.com"
+              class="inline-block mx-[10px] md:mx-8 w-4"
+              target="_blank"
+            >
+              <svg
+                role="img"
+                class="w-6 md:w-8 media-hover"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Gmail</title>
+                <path
+                  fill="#06B6D4"
+                  d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://instagram.com/ni_za_ru/"
+              class="inline-block mx-[10px] md:mx-8 w-4"
+              target="_blank"
+            >
+              <svg
+                role="img"
+                class="w-6 md:w-8 media-hover"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Instagram</title>
+                <path
+                  fill="#06B6D4"
+                  d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Skill Section Start -->
+    <section id="skill" class="pt-20 overflow-hidden pb-8">
+      <div class="flex flex-wrap">
+        <div
+          id="skill-left-side"
+          class="w-full lg:w-2/3 md:max-h-96 self-center inner-custom bg-gray-700 slide-in-right"
+        >
+          <div class="p-4 font-outfit">
+            <h3 class="text-lg font-semibold text-center text-gray-200 mb-3">
+              I have experience with these technologies
+            </h3>
+            <div class="flex flex-wrap p-3 justify-center text-gray-300">
+              <div class="w-14 scale md:w-16 text-center m-2 md:mx-5">
+                <h5 class="text-xs font-medium md:text-sm mb-1">HTML5</h5>
+                <svg
+                  class=""
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>HTML5</title>
+                  <path
+                    fill="#e96228"
+                    d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"
+                  />
+                </svg>
+              </div>
+              <div class="w-14 scale md:w-16 text-center m-2 md:mx-5">
+                <h5 class="text-xs font-medium md:text-sm mb-1">CSS3</h5>
+                <svg
+                  class=""
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>CSS3</title>
+                  <path
+                    fill="#254bdd"
+                    d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"
+                  />
+                </svg>
+              </div>
+              <div class="w-14 scale md:w-16 text-center m-2 md:mx-5">
+                <h5 class="text-xs font-medium md:text-sm mb-1">Python</h5>
+                <svg
+                  viewBox="0 -0.5 256 256"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  preserveAspectRatio="xMidYMid"
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <defs>
+                      <linearGradient
+                        x1="12.9593594%"
+                        y1="12.0393928%"
+                        x2="79.6388325%"
+                        y2="78.2008538%"
+                        id="linearGradient-1"
+                      >
+                        <stop stop-color="#387EB8" offset="0%"></stop>
+                        <stop stop-color="#366994" offset="100%"></stop>
+                      </linearGradient>
+                      <linearGradient
+                        x1="19.127525%"
+                        y1="20.5791813%"
+                        x2="90.7415328%"
+                        y2="88.4290372%"
+                        id="linearGradient-2"
+                      >
+                        <stop stop-color="#FFE052" offset="0%"></stop>
+                        <stop stop-color="#FFC331" offset="100%"></stop>
+                      </linearGradient>
+                    </defs>
+                    <g>
+                      <path
+                        d="M126.915866,0.0722755491 C62.0835831,0.0722801733 66.1321288,28.1874648 66.1321288,28.1874648 L66.2044043,57.3145115 L128.072276,57.3145115 L128.072276,66.0598532 L41.6307171,66.0598532 C41.6307171,66.0598532 0.144551098,61.3549438 0.144551098,126.771315 C0.144546474,192.187673 36.3546019,189.867871 36.3546019,189.867871 L57.9649915,189.867871 L57.9649915,159.51214 C57.9649915,159.51214 56.8001363,123.302089 93.5968379,123.302089 L154.95878,123.302089 C154.95878,123.302089 189.434218,123.859386 189.434218,89.9830604 L189.434218,33.9695088 C189.434218,33.9695041 194.668541,0.0722755491 126.915866,0.0722755491 L126.915866,0.0722755491 L126.915866,0.0722755491 Z M92.8018069,19.6589497 C98.9572068,19.6589452 103.932242,24.6339846 103.932242,30.7893845 C103.932246,36.9447844 98.9572068,41.9198193 92.8018069,41.9198193 C86.646407,41.9198239 81.6713721,36.9447844 81.6713721,30.7893845 C81.6713674,24.6339846 86.646407,19.6589497 92.8018069,19.6589497 L92.8018069,19.6589497 L92.8018069,19.6589497 Z"
+                        fill="url(#linearGradient-1)"
+                      ></path>
+                      <path
+                        d="M128.757101,254.126271 C193.589403,254.126271 189.540839,226.011081 189.540839,226.011081 L189.468564,196.884035 L127.600692,196.884035 L127.600692,188.138693 L214.042251,188.138693 C214.042251,188.138693 255.528417,192.843589 255.528417,127.427208 C255.52844,62.0108566 219.318366,64.3306589 219.318366,64.3306589 L197.707976,64.3306589 L197.707976,94.6863832 C197.707976,94.6863832 198.87285,130.896434 162.07613,130.896434 L100.714182,130.896434 C100.714182,130.896434 66.238745,130.339138 66.238745,164.215486 L66.238745,220.229038 C66.238745,220.229038 61.0044225,254.126271 128.757101,254.126271 L128.757101,254.126271 L128.757101,254.126271 Z M162.87116,234.539597 C156.715759,234.539597 151.740726,229.564564 151.740726,223.409162 C151.740726,217.253759 156.715759,212.278727 162.87116,212.278727 C169.026563,212.278727 174.001595,217.253759 174.001595,223.409162 C174.001618,229.564564 169.026563,234.539597 162.87116,234.539597 L162.87116,234.539597 L162.87116,234.539597 Z"
+                        fill="url(#linearGradient-2)"
+                      ></path>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <div class="w-14 scale md:w-16 text-center m-2 md:mx-5">
+                <h5 class="text-xs font-medium md:text-sm mb-1">Javascript</h5>
+                <svg
+                  class=""
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>JavaScript</title>
+                  <path
+                    fill="#eadb1a"
+                    d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"
+                  />
+                </svg>
+              </div>
+              <div class="w-14 scale md:w-16 text-center m-2 md:mx-5">
+                <h5 class="text-xs font-medium md:text-sm mb-1">TypeScript</h5>
+                <svg
+                  class=""
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>TypeScript</title>
+                  <path
+                    fill="#2f74c0"
+                    d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0zm17.363 9.75c.612 0 1.154.037 1.627.111a6.38 6.38 0 0 1 1.306.34v2.458a3.95 3.95 0 0 0-.643-.361 5.093 5.093 0 0 0-.717-.26 5.453 5.453 0 0 0-1.426-.2c-.3 0-.573.028-.819.086a2.1 2.1 0 0 0-.623.242c-.17.104-.3.229-.393.374a.888.888 0 0 0-.14.49c0 .196.053.373.156.529.104.156.252.304.443.444s.423.276.696.41c.273.135.582.274.926.416.47.197.892.407 1.266.628.374.222.695.473.963.753.268.279.472.598.614.957.142.359.214.776.214 1.253 0 .657-.125 1.21-.373 1.656a3.033 3.033 0 0 1-1.012 1.085 4.38 4.38 0 0 1-1.487.596c-.566.12-1.163.18-1.79.18a9.916 9.916 0 0 1-1.84-.164 5.544 5.544 0 0 1-1.512-.493v-2.63a5.033 5.033 0 0 0 3.237 1.2c.333 0 .624-.03.872-.09.249-.06.456-.144.623-.25.166-.108.29-.234.373-.38a1.023 1.023 0 0 0-.074-1.089 2.12 2.12 0 0 0-.537-.5 5.597 5.597 0 0 0-.807-.444 27.72 27.72 0 0 0-1.007-.436c-.918-.383-1.602-.852-2.053-1.405-.45-.553-.676-1.222-.676-2.005 0-.614.123-1.141.369-1.582.246-.441.58-.804 1.004-1.089a4.494 4.494 0 0 1 1.47-.629 7.536 7.536 0 0 1 1.77-.201zm-15.113.188h9.563v2.166H9.506v9.646H6.789v-9.646H3.375z"
+                  />
+                </svg>
+              </div>
+              <div class="w-14 scale md:w-16 text-center m-2 md:mx-5">
+                <h5 class="text-xs font-medium md:text-sm mb-1">Tailwindcss</h5>
+                <svg
+                  class=""
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Tailwind CSS</title>
+                  <path
+                    fill="#36b7f0"
+                    d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"
+                  />
+                </svg>
+              </div>
+              <div class="w-14 scale md:w-16 text-center m-2 md:mx-5">
+                <h5 class="text-xs font-medium md:text-sm mb-1">Bootstrap</h5>
+                <svg
+                  class=""
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Bootstrap</title>
+                  <path
+                    fill="#6f11ef"
+                    d="M11.77 11.24H9.956V8.202h2.152c1.17 0 1.834.522 1.834 1.466 0 1.008-.773 1.572-2.174 1.572zm.324 1.206H9.957v3.348h2.231c1.459 0 2.232-.585 2.232-1.685s-.795-1.663-2.326-1.663zM24 11.39v1.218c-1.128.108-1.817.944-2.226 2.268-.407 1.319-.463 2.937-.42 4.186.045 1.3-.968 2.5-2.337 2.5H4.985c-1.37 0-2.383-1.2-2.337-2.5.043-1.249-.013-2.867-.42-4.186-.41-1.324-1.1-2.16-2.228-2.268V11.39c1.128-.108 1.819-.944 2.227-2.268.408-1.319.464-2.937.42-4.186-.045-1.3.968-2.5 2.338-2.5h14.032c1.37 0 2.382 1.2 2.337 2.5-.043 1.249.013 2.867.42 4.186.409 1.324 1.098 2.16 2.226 2.268zm-7.927 2.817c0-1.354-.953-2.333-2.368-2.488v-.057c1.04-.169 1.856-1.135 1.856-2.213 0-1.537-1.213-2.538-3.062-2.538h-4.16v10.172h4.181c2.218 0 3.553-1.086 3.553-2.876z"
+                  />
+                </svg>
+              </div>
+              <div class="w-14 scale md:w-16 text-center m-2 md:mx-5">
+                <h5 class="text-xs font-medium md:text-sm mb-1">React</h5>
+                <svg
+                  class=""
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>React</title>
+                  <path
+                    fill="#60d3f3"
+                    d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z"
+                  />
+                </svg>
+              </div>
+              <div class="w-14 scale md:w-16 text-center m-2 md:mx-5">
+                <h5 class="text-xs font-medium md:text-sm mb-1">Node.js</h5>
+                <img
+                  src="./dist/img/2560px-Node.js_logo.svg.png"
+                  alt="nodejs"
+                  class="scale-[1.3] mt-[9px]"
+                />
+              </div>
+              <div class="w-14 scale md:w-16 text-center m-2 md:mx-5">
+                <h5 class="text-xs font-medium md:text-sm mb-1">Express.js</h5>
+                <svg
+                  class=""
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Express</title>
+                  <path
+                    fill=""
+                    d="M24 18.588a1.529 1.529 0 01-1.895-.72l-3.45-4.771-.5-.667-4.003 5.444a1.466 1.466 0 01-1.802.708l5.158-6.92-4.798-6.251a1.595 1.595 0 011.9.666l3.576 4.83 3.596-4.81a1.435 1.435 0 011.788-.668L21.708 7.9l-2.522 3.283a.666.666 0 000 .994l4.804 6.412zM.002 11.576l.42-2.075c1.154-4.103 5.858-5.81 9.094-3.27 1.895 1.489 2.368 3.597 2.275 5.973H1.116C.943 16.447 4.005 19.009 7.92 17.7a4.078 4.078 0 002.582-2.876c.207-.666.548-.78 1.174-.588a5.417 5.417 0 01-2.589 3.957 6.272 6.272 0 01-7.306-.933 6.575 6.575 0 01-1.64-3.858c0-.235-.08-.455-.134-.666A88.33 88.33 0 010 11.577zm1.127-.286h9.654c-.06-3.076-2.001-5.258-4.59-5.278-2.882-.04-4.944 2.094-5.071 5.264z"
+                  />
+                </svg>
+              </div>
+              <div class="w-14 scale md:w-16 text-center m-2 md:mx-5">
+                <h5 class="text-xs font-medium md:text-sm mb-1">Angular</h5>
+                <svg
+                  viewBox="-8 0 272 272"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  preserveAspectRatio="xMidYMid"
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <g>
+                      <path
+                        d="M0.0996108949,45.522179 L125.908171,0.697276265 L255.103502,44.7252918 L234.185214,211.175097 L125.908171,271.140856 L19.3245136,211.971984 L0.0996108949,45.522179 Z"
+                        fill="#E23237"
+                      ></path>
+                      <path
+                        d="M255.103502,44.7252918 L125.908171,0.697276265 L125.908171,271.140856 L234.185214,211.274708 L255.103502,44.7252918 L255.103502,44.7252918 Z"
+                        fill="#B52E31"
+                      ></path>
+                      <path
+                        d="M126.107393,32.27393 L126.107393,32.27393 L47.7136187,206.692607 L76.9992218,206.194553 L92.7377432,166.848249 L126.207004,166.848249 L126.306615,166.848249 L163.063035,166.848249 L180.29572,206.692607 L208.286381,207.190661 L126.107393,32.27393 L126.107393,32.27393 Z M126.306615,88.155642 L152.803113,143.5393 L127.402335,143.5393 L126.107393,143.5393 L102.997665,143.5393 L126.306615,88.155642 L126.306615,88.155642 Z"
+                        fill="#FFFFFF"
+                      ></path>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <div class="w-14 scale md:w-16 text-center m-2 md:mx-5">
+                <h5 class="text-xs font-medium md:text-sm mb-1">Ionic</h5>
+                <svg
+                  viewBox="0 -169.5 512 512"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  preserveAspectRatio="xMidYMid"
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <g fill="#3880FF">
+                      <path
+                        d="M86.5106979,0.000800355684 C100.536693,0.000800355684 113.743651,3.27775181 126.131574,9.62528231 L126.131574,9.62528231 L127.769646,10.4443185 L126.336333,11.5704933 C122.855429,14.3347404 120.091182,17.9180238 118.35073,22.0132047 L118.35073,22.0132047 L117.838832,23.1393795 L116.815037,22.6274819 C107.293741,18.1227828 97.1581684,15.7680538 86.6130774,15.7680538 C47.6064787,15.7680538 15.9712058,47.5057062 15.9712058,86.4099254 C15.9712058,125.314145 47.5040992,157.051797 86.5106979,157.051797 C125.517297,157.051797 157.152569,125.314145 157.152569,86.4099254 C157.152569,77.0933887 155.412118,67.981611 151.726455,59.381731 L151.726455,59.381731 L151.214557,58.2555563 L152.340732,57.7436586 C156.538292,56.2079658 160.223955,53.6484777 163.192961,50.3723329 L163.192961,50.3723329 L164.319136,48.9390196 L165.035793,50.5770919 C170.257149,61.9412191 172.816637,74.022003 172.816637,86.2051663 C172.816637,133.811645 134.014797,172.613485 86.4083183,172.613485 C38.8018396,172.613485 0,133.811645 0,86.2051663 C0,38.5986876 38.8018396,-0.203152008 86.5106979,0.000800355684 Z M86.5106979,47.0961881 C108.112777,47.0961881 125.824435,64.7054663 125.926815,86.5123049 C125.926815,108.319144 108.317536,125.928422 86.5106979,125.928422 C64.7038592,125.928422 47.0945811,108.319144 47.0945811,86.5123049 C47.0945811,64.7054663 64.8062388,47.0961881 86.5106979,47.0961881 Z M142.921816,14.5394995 C152.873322,14.5394995 160.940612,22.6067893 160.940612,32.5582957 C160.940612,42.5098021 152.873322,50.5770919 142.921816,50.5770919 C132.970309,50.5770919 124.903019,42.5098021 124.903019,32.5582957 C124.903019,22.6067893 132.970309,14.5394995 142.921816,14.5394995 Z"
+                      ></path>
+                      <path
+                        d="M480.569486,46.9938086 C487.326535,46.9938086 493.264547,49.2461581 497.769246,51.9080258 C503.809638,55.4913091 508.211958,59.0745924 512,64.9102253 L512,64.9102253 L498.895421,73.8172439 C498.895421,73.8172439 491.728854,62.5554963 480.057588,62.5554963 C466.236353,62.5554963 457.226955,73.2029668 457.226955,86.5123049 C457.226955,99.821643 466.338732,110.469114 480.057588,110.469114 C491.728854,110.469114 498.793041,99.0026068 498.793041,99.1049864 L498.793041,99.1049864 L512,107.909625 C508.211958,113.745258 503.809638,117.226162 497.769246,120.911825 C493.264547,123.573693 487.224155,125.826042 480.569486,125.826042 C457.738852,125.826042 440.334333,108.626282 440.231954,86.4099254 C440.334333,64.1935686 457.738852,46.9938086 480.569486,46.9938086 Z M283.079384,47.0961881 C302.019596,47.0961881 322.495501,60.5079058 322.393504,86.5123049 C322.393504,109.342939 304.886223,125.826042 283.386523,125.826042 C259.634473,125.826042 243.663267,107.500107 243.663267,86.1027868 C243.663267,65.1149844 260.146371,47.0961881 283.079384,47.0961881 Z M235.575285,48.83664 L235.575285,124.08559 L217.35173,124.08559 L217.35173,48.83664 L235.575285,48.83664 Z M432.246351,48.83664 L432.246351,124.08559 L414.022795,124.08559 L414.022795,48.83664 L432.246351,48.83664 Z M371.944811,47.0961881 C394.980204,47.0961881 403.580084,62.9650144 403.887223,82.7242625 L403.887223,82.7242625 L403.887223,123.983211 L385.663667,123.983211 L385.663667,80.8814311 C385.663667,70.8482377 378.804239,62.3507372 370.10198,62.3507372 C361.092581,62.3507372 349.011798,69.6196834 349.011798,78.526702 L349.011798,78.526702 L349.011798,124.08559 L330.788242,124.08559 L330.788242,48.83664 L345.940412,48.83664 L347.066587,56.9246224 L347.153104,56.8430704 C349.471664,54.678802 359.31144,47.0961881 371.944811,47.0961881 Z M283.284143,62.5554963 C270.589082,62.5554963 260.863027,72.6910691 260.863027,86.4099254 C260.863027,100.231161 270.691462,110.366734 283.181764,110.366734 C294.64827,110.366734 305.295741,100.947818 305.295741,86.5123049 C305.295741,71.7696534 294.545891,62.5554963 283.284143,62.5554963 Z"
+                      ></path>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <div class="w-14 scale md:w-16 text-center m-2 md:mx-5">
+                <h5 class="text-xs font-medium md:text-sm mb-1">MySQL</h5>
+                <svg
+                  fill="#000000"
+                  viewBox="0 0 32 32"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <title>mysql</title>
+                    <path
+                      d="M30.026 15.139c-0.082-0.006-0.177-0.010-0.273-0.010-0.484 0-0.947 0.090-1.373 0.254l0.026-0.009c-0.125 0.050-0.325 0.050-0.342 0.209 0.069 0.066 0.079 0.175 0.137 0.267 0.117 0.198 0.261 0.366 0.429 0.506l0.003 0.003c0.175 0.137 0.35 0.27 0.534 0.387 0.325 0.2 0.694 0.319 1.012 0.52 0.181 0.117 0.366 0.266 0.55 0.391 0.091 0.062 0.15 0.175 0.267 0.215v-0.025c-0.057-0.075-0.075-0.184-0.131-0.267-0.084-0.084-0.167-0.159-0.25-0.241-0.248-0.325-0.535-0.603-0.857-0.835l-0.012-0.008c-0.267-0.182-0.852-0.437-0.962-0.744l-0.016-0.018c0.218-0.031 0.412-0.077 0.599-0.139l-0.024 0.007c0.284-0.075 0.544-0.059 0.837-0.132 0.132-0.034 0.266-0.075 0.4-0.117v-0.075c-0.15-0.15-0.262-0.354-0.417-0.494-0.409-0.36-0.86-0.698-1.335-1.002l-0.045-0.027c-0.262-0.167-0.595-0.275-0.871-0.417-0.1-0.050-0.267-0.075-0.325-0.159-0.13-0.185-0.245-0.397-0.336-0.621l-0.008-0.022q-0.368-0.714-0.684-1.453c-0.144-0.383-0.287-0.697-0.448-1.001l0.023 0.047c-0.786-1.319-1.881-2.379-3.188-3.102l-0.043-0.022c-0.309-0.153-0.668-0.272-1.045-0.339l-0.025-0.004c-0.209-0.010-0.417-0.025-0.625-0.034-0.146-0.094-0.272-0.19-0.39-0.296l0.003 0.003c-0.475-0.3-1.704-0.95-2.054-0.090-0.225 0.542 0.334 1.077 0.527 1.352 0.154 0.183 0.294 0.388 0.415 0.605l0.010 0.020c0.059 0.145 0.075 0.294 0.134 0.445 0.145 0.452 0.292 0.823 0.459 1.182l-0.026-0.062c0.099 0.199 0.202 0.368 0.317 0.528l-0.008-0.012c0.067 0.091 0.182 0.134 0.209 0.284-0.086 0.181-0.153 0.391-0.19 0.61l-0.002 0.014c-0.108 0.332-0.171 0.715-0.171 1.112 0 0.621 0.153 1.206 0.423 1.72l-0.010-0.020c0.134 0.207 0.452 0.667 0.878 0.491 0.375-0.15 0.292-0.625 0.4-1.043 0.025-0.1 0.009-0.166 0.060-0.234v0.019c0.117 0.235 0.235 0.459 0.342 0.694 0.302 0.435 0.661 0.805 1.071 1.11l0.013 0.009c0.2 0.15 0.359 0.41 0.609 0.502v-0.025h-0.019c-0.057-0.062-0.12-0.117-0.189-0.164l-0.004-0.002c-0.155-0.152-0.299-0.316-0.429-0.489l-0.008-0.011c-0.326-0.44-0.636-0.938-0.905-1.461l-0.029-0.061c-0.137-0.262-0.252-0.545-0.362-0.804-0.050-0.1-0.050-0.25-0.134-0.3-0.148 0.166-0.281 0.351-0.392 0.55l-0.008 0.016c-0.128 0.373-0.212 0.804-0.234 1.251l-0 0.011c-0.034 0.009-0.017 0-0.034 0.018-0.267-0.065-0.359-0.342-0.459-0.575-0.136-0.366-0.215-0.79-0.215-1.231 0-0.356 0.051-0.7 0.147-1.025l-0.006 0.026c0.059-0.175 0.309-0.727 0.209-0.895-0.052-0.159-0.217-0.25-0.309-0.379-0.109-0.154-0.209-0.329-0.292-0.514l-0.008-0.020c-0.2-0.467-0.3-0.985-0.517-1.452-0.131-0.244-0.269-0.454-0.424-0.65l0.007 0.009c-0.165-0.191-0.317-0.404-0.449-0.63l-0.011-0.020c-0.041-0.091-0.1-0.242-0.034-0.342 0.012-0.058 0.058-0.103 0.117-0.112l0.001-0c0.11-0.090 0.419 0.027 0.527 0.077 0.317 0.12 0.59 0.261 0.843 0.427l-0.016-0.010c0.117 0.082 0.244 0.241 0.394 0.282h0.175c0.267 0.059 0.569 0.018 0.819 0.091 0.459 0.155 0.856 0.349 1.223 0.587l-0.021-0.013c1.104 0.713 1.988 1.677 2.586 2.816l0.020 0.041c0.1 0.192 0.144 0.369 0.235 0.569 0.175 0.412 0.391 0.829 0.569 1.227 0.169 0.428 0.369 0.798 0.607 1.139l-0.012-0.018c0.125 0.175 0.627 0.266 0.852 0.357 0.237 0.083 0.427 0.162 0.611 0.251l-0.037-0.016c0.287 0.175 0.567 0.375 0.837 0.567 0.137 0.095 0.554 0.304 0.579 0.472zM18.302 22.452c0 0.015 0.001 0.032 0.001 0.049 0 0.558-0.249 1.057-0.643 1.393l-0.003 0.002c-0.432 0.352-0.989 0.566-1.596 0.566-0.047 0-0.094-0.001-0.14-0.004l0.006 0c-0.739-0.010-1.419-0.25-1.976-0.651l0.010 0.007 0.296-0.595c0.429 0.24 0.939 0.389 1.481 0.41l0.006 0c0.027 0.002 0.058 0.003 0.090 0.003 0.332 0 0.641-0.104 0.894-0.281l-0.005 0.003c0.229-0.174 0.375-0.446 0.375-0.752 0-0.006-0-0.011-0-0.017v0.001c0-0.412-0.287-0.762-0.81-1.056-0.485-0.266-1.453-0.821-1.453-0.821-0.478-0.296-0.791-0.817-0.791-1.411 0-0.021 0-0.042 0.001-0.063l-0 0.003c-0.001-0.019-0.001-0.041-0.001-0.063 0-0.515 0.227-0.977 0.586-1.291l0.002-0.002c0.382-0.324 0.881-0.521 1.426-0.521 0.035 0 0.069 0.001 0.103 0.002l-0.005-0c0.009-0 0.020-0 0.031-0 0.639 0 1.234 0.191 1.73 0.52l-0.012-0.007-0.266 0.595c-0.391-0.176-0.847-0.282-1.327-0.287l-0.002-0c-0.024-0.002-0.051-0.003-0.079-0.003-0.28 0-0.538 0.098-0.74 0.262l0.002-0.002c-0.189 0.157-0.309 0.392-0.31 0.655v0c0 0.41 0.292 0.762 0.832 1.062 0.491 0.269 1.483 0.837 1.483 0.837 0.488 0.287 0.811 0.809 0.811 1.407 0 0.018-0 0.037-0.001 0.055l0-0.003zM20.374 22.983c-0.273-0.545-0.432-1.187-0.432-1.866 0-0.107 0.004-0.213 0.012-0.317l-0.001 0.014q0-2.611 1.587-2.612c0.026-0.002 0.057-0.003 0.089-0.003 0.475 0 0.892 0.248 1.129 0.622l0.003 0.005c0.271 0.542 0.43 1.182 0.43 1.858 0 0.104-0.004 0.207-0.011 0.309l0.001-0.014q0 2.632-1.587 2.634c-0.027 0.002-0.058 0.003-0.089 0.003-0.475 0-0.893-0.248-1.13-0.622l-0.003-0.005zM24.488 24.535l-1.27-0.625c0.116-0.097 0.22-0.199 0.316-0.309l0.003-0.003c0.513-0.692 0.821-1.563 0.821-2.505 0-0.109-0.004-0.217-0.012-0.324l0.001 0.014q0-3.43-2.693-3.432c-0.040-0.002-0.087-0.003-0.134-0.003-0.767 0-1.456 0.337-1.925 0.872l-0.002 0.003c-0.511 0.692-0.818 1.562-0.818 2.504 0 0.106 0.004 0.211 0.012 0.315l-0.001-0.014c-0.009 0.101-0.014 0.219-0.014 0.338 0 0.874 0.274 1.684 0.74 2.349l-0.009-0.013c0.449 0.478 1.086 0.776 1.791 0.776 0.066 0 0.131-0.003 0.195-0.008l-0.009 0.001c0.009 0 0.021 0 0.032 0 0.311 0 0.612-0.045 0.897-0.128l-0.022 0.006 1.656 0.965 0.45-0.777zM28.636 24.366h-3.287v-6.91h1.106v6.061h2.181zM13.235 19.268c-0.287 2.084-0.944 3.965-1.905 5.65l0.040-0.077c-0.385 0.741-1.113 1.257-1.968 1.34l-0.010 0.001c-0.259-0.014-0.5-0.076-0.719-0.177l0.012 0.005v-0.617c0.137 0.021 0.295 0.033 0.456 0.033 0.009 0 0.018-0 0.028-0h-0.001c0.016 0.001 0.034 0.001 0.052 0.001 0.289 0 0.554-0.105 0.758-0.28l-0.002 0.001c0.22-0.181 0.361-0.451 0.369-0.755l0-0.001c-0.053-0.438-0.154-0.837-0.299-1.214l0.012 0.034-1.267-3.944h1.137l0.909 2.949c0.162 0.416 0.256 0.898 0.256 1.401 0 0.001 0 0.002 0 0.002v-0c0.482-1.262 0.848-2.734 1.034-4.261l0.009-0.092zM8.215 24.366h-1.158q-0.049-2.761-0.337-5.511h-0.010l-1.762 5.511h-0.881l-1.75-5.511h-0.012q-0.205 2.751-0.244 5.511h-1.056q0.103-3.685 0.512-6.911h1.437l1.668 5.079h0.010l1.683-5.079h1.368q0.454 3.777 0.535 6.911zM21.505 7.879c-0.002 0-0.005-0-0.008-0-0.119 0-0.234 0.015-0.344 0.043l0.010-0.002v0.016h0.017c0.086 0.128 0.174 0.239 0.269 0.343l-0.002-0.002c0.067 0.134 0.125 0.267 0.192 0.4l0.017-0.019c0.109-0.086 0.178-0.218 0.178-0.366 0-0.018-0.001-0.035-0.003-0.053l0 0.002c-0.050-0.059-0.057-0.117-0.1-0.175-0.050-0.084-0.157-0.125-0.225-0.191z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+              <div class="w-14 scale md:w-16 text-center m-2 md:mx-5">
+                <h5 class="text-xs font-medium md:text-sm mb-1">NEXT.js</h5>
+                <svg
+                  viewBox="0 -101.5 512 512"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  preserveAspectRatio="xMidYMid"
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <g>
+                      <path
+                        d="M120.81043,80.5613102 L217.378325,80.5613102 L217.378325,88.2366589 L129.662487,88.2366589 L129.662487,146.003758 L212.147564,146.003758 L212.147564,153.679106 L129.662487,153.679106 L129.662487,217.101725 L218.384241,217.101725 L218.384241,224.777073 L120.81043,224.777073 L120.81043,80.5613102 Z M226.0292,80.5613102 L236.289538,80.5613102 L281.756922,143.983929 L328.230222,80.5613102 L391.441486,0 L287.591232,150.649363 L341.105941,224.777073 L330.443237,224.777073 L281.756922,157.314798 L232.869425,224.777073 L222.407904,224.777073 L276.324978,150.649363 L226.0292,80.5613102 Z M344.928421,88.2366588 L344.928421,80.5613102 L454.975585,80.5613102 L454.975585,88.2366589 L404.27744,88.2366589 L404.27744,224.777073 L395.425382,224.777073 L395.425382,88.2366589 L344.928421,88.2366588 Z M1.42108547e-14,80.5613102 L11.0650714,80.5613102 L163.64593,308.884007 L100.591558,224.777073 L9.25442331,91.4683847 L8.85205708,224.777073 L1.42108547e-14,224.777073 L1.42108547e-14,80.5613102 Z M454.083705,214.785469 C452.275167,214.785469 450.918762,213.38418 450.918762,211.573285 C450.918762,209.762388 452.275167,208.361099 454.083705,208.361099 C455.913774,208.361099 457.248648,209.762388 457.248648,211.573285 C457.248648,213.38418 455.913774,214.785469 454.083705,214.785469 Z M462.781915,206.334618 L467.518563,206.334618 C467.583153,208.900055 469.456284,210.624719 472.212151,210.624719 C475.290972,210.624719 477.03492,208.770705 477.03492,205.29982 L477.03492,183.310363 L481.85769,183.310363 L481.85769,205.321379 C481.85769,211.573285 478.240613,215.173518 472.255212,215.173518 C466.635824,215.173518 462.781915,211.681076 462.781915,206.334618 Z M488.166045,206.054362 L492.945754,206.054362 C493.354828,209.007848 496.239878,210.883419 500.395211,210.883419 C504.270652,210.883419 507.11264,208.878498 507.11264,206.119036 C507.11264,203.747625 505.304102,202.324777 501.191828,201.354653 L497.187209,200.384531 C491.56782,199.069474 489.005723,196.353129 489.005723,191.782772 C489.005723,186.24229 493.527071,182.555823 500.30909,182.555823 C506.617445,182.555823 511.224912,186.24229 511.504805,191.480955 L506.811217,191.480955 C506.359083,188.613703 503.861576,186.824365 500.244499,186.824365 C496.43365,186.824365 493.893085,188.656819 493.893085,191.459398 C493.893085,193.679901 495.52938,194.95184 499.577063,195.900406 L503.000368,196.741178 C509.373314,198.228702 512,200.815695 512,205.493846 C512,211.443935 507.392533,215.173518 500.029197,215.173518 C493.139526,215.173518 488.51053,211.6164 488.166045,206.054362 Z"
+                        fill="#000000"
+                        fill-rule="nonzero"
+                      ></path>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <div class="w-14 scale md:w-16 text-center m-2 md:mx-5">
+                <h5 class="text-xs font-medium md:text-sm mb-1">SpringBoot</h5>
+                <svg
+                  fill="#1bee45"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M20.205 16.392c-2.469 3.289-7.741 2.179-11.122 2.338 0 0-.599.034-1.201.133 0 0 .228-.097.519-.198 2.374-.821 3.496-.986 4.939-1.727 2.71-1.388 5.408-4.413 5.957-7.555-1.032 3.022-4.17 5.623-7.027 6.679-1.955.722-5.492 1.424-5.493 1.424a5.28 5.28 0 0 1-.143-.076c-2.405-1.17-2.475-6.38 1.894-8.059 1.916-.736 3.747-.332 5.818-.825 2.208-.525 4.766-2.18 5.805-4.344 1.165 3.458 2.565 8.866.054 12.21zm.042-13.28a9.212 9.212 0 0 1-1.065 1.89 9.982 9.982 0 0 0-7.167-3.031C6.492 1.971 2 6.463 2 11.985a9.983 9.983 0 0 0 3.205 7.334l.22.194a.856.856 0 1 1 .001.001l.149.132A9.96 9.96 0 0 0 12.015 22c5.278 0 9.613-4.108 9.984-9.292.274-2.539-.476-5.763-1.752-9.596"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+              <div class="w-14 scale md:w-16 text-center m-2 md:mx-5">
+                <h5 class="text-xs font-medium md:text-sm mb-1">MongoDB</h5>
+                <svg
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>MongoDB</title>
+                  <path
+                    fill="#47A248"
+                    d="M17.193 9.555c-1.264-5.58-4.252-7.414-4.573-8.115-.28-.394-.53-.954-.735-1.44-.036.495-.055.685-.523 1.184-.723.566-4.438 3.682-4.74 10.02-.282 5.912 4.27 9.435 4.888 9.884l.07.05A73.49 73.49 0 0111.91 24h.481c.114-1.032.284-2.056.51-3.07.417-.296.604-.463.85-.693a11.342 11.342 0 003.639-8.464c.01-.814-.103-1.662-.197-2.218zm-5.336 8.195s0-8.291.275-8.29c.213 0 .49 10.695.49 10.695-.381-.045-.765-1.76-.765-2.405z"
+                  />
+                </svg>
+              </div>
+
+              <div class="w-14 scale md:w-16 text-center m-2 md:mx-5">
+                <h5 class="text-xs font-medium md:text-sm mb-1">Docker</h5>
+                <svg
+                  class=""
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Docker</title>
+                  <path
+                    fill="#2391e6"
+                    d="M13.983 11.078h2.119a.186.186 0 00.186-.185V9.006a.186.186 0 00-.186-.186h-2.119a.185.185 0 00-.185.185v1.888c0 .102.083.185.185.185m-2.954-5.43h2.118a.186.186 0 00.186-.186V3.574a.186.186 0 00-.186-.185h-2.118a.185.185 0 00-.185.185v1.888c0 .102.082.185.185.185m0 2.716h2.118a.187.187 0 00.186-.186V6.29a.186.186 0 00-.186-.185h-2.118a.185.185 0 00-.185.185v1.887c0 .102.082.185.185.186m-2.93 0h2.12a.186.186 0 00.184-.186V6.29a.185.185 0 00-.185-.185H8.1a.185.185 0 00-.185.185v1.887c0 .102.083.185.185.186m-2.964 0h2.119a.186.186 0 00.185-.186V6.29a.185.185 0 00-.185-.185H5.136a.186.186 0 00-.186.185v1.887c0 .102.084.185.186.186m5.893 2.715h2.118a.186.186 0 00.186-.185V9.006a.186.186 0 00-.186-.186h-2.118a.185.185 0 00-.185.185v1.888c0 .102.082.185.185.185m-2.93 0h2.12a.185.185 0 00.184-.185V9.006a.185.185 0 00-.184-.186h-2.12a.185.185 0 00-.184.185v1.888c0 .102.083.185.185.185m-2.964 0h2.119a.185.185 0 00.185-.185V9.006a.185.185 0 00-.184-.186h-2.12a.186.186 0 00-.186.186v1.887c0 .102.084.185.186.185m-2.92 0h2.12a.185.185 0 00.184-.185V9.006a.185.185 0 00-.184-.186h-2.12a.185.185 0 00-.184.185v1.888c0 .102.082.185.185.185M23.763 9.89c-.065-.051-.672-.51-1.954-.51-.338.001-.676.03-1.01.087-.248-1.7-1.653-2.53-1.716-2.566l-.344-.199-.226.327c-.284.438-.49.922-.612 1.43-.23.97-.09 1.882.403 2.661-.595.332-1.55.413-1.744.42H.751a.751.751 0 00-.75.748 11.376 11.376 0 00.692 4.062c.545 1.428 1.355 2.48 2.41 3.124 1.18.723 3.1 1.137 5.275 1.137.983.003 1.963-.086 2.93-.266a12.248 12.248 0 003.823-1.389c.98-.567 1.86-1.288 2.61-2.136 1.252-1.418 1.998-2.997 2.553-4.4h.221c1.372 0 2.215-.549 2.68-1.009.309-.293.55-.65.707-1.046l.098-.288Z"
+                  />
+                </svg>
+              </div>
+              <div class="w-14 scale md:w-16 text-center m-2">
+                <h5 class="text-xs font-medium md:text-sm mb-1">AWS</h5>
+                <img
+                  src="./dist/img/1024px-Amazon_Web_Services_Logo.svg.webp"
+                  alt="aws"
+                  class="scale-[1.18] mt-3"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="skill-right-side"
+          class="w-full lg:w-1/3 bg-gray-800 md:rounded-2xl py-7 shadow-md shadow-cyan-700 text-gray-300 font-outfit slide-in-left"
+        >
+          <div class="container">
+            <h3 class="text-xl font-semibold text-center">My Softskills</h3>
+            <ul class="m-4">
+              <li
+                class="shadow shadow-cyan-600 bg-cyan-600 p-3 my-3 scale rounded-md"
+              >
+                <h5 class="font-bold">Effective communication</h5>
+                <p class="text-xs font-medium">
+                  (Listening, clarity and concision)
+                </p>
+              </li>
+              <li
+                class="shadow shadow-cyan-600 bg-cyan-600 p-3 my-3 scale rounded-md"
+              >
+                <h5 class="font-bold">Leadership</h5>
+                <p class="text-xs font-medium">
+                  (Time management, responbility, organization)
+                </p>
+              </li>
+              <li
+                class="shadow shadow-cyan-600 bg-cyan-600 p-3 my-3 scale rounded-md"
+              >
+                <h5 class="font-bold">Creativity</h5>
+                <p class="text-xs font-medium">
+                  (Critical thinking, open-mindedness)
+                </p>
+              </li>
+              <li
+                class="shadow shadow-cyan-600 bg-cyan-600 p-3 my-3 scale rounded-md"
+              >
+                <h5 class="font-bold">Social skills</h5>
+                <p class="text-xs font-medium">
+                  (Teamwork, empathy, patience, trustworthines)
+                </p>
+              </li>
+              <li
+                class="shadow shadow-cyan-600 bg-cyan-600 p-3 my-3 scale rounded-md"
+              >
+                <h5 class="font-bold">Personal skills</h5>
+                <p class="text-xs font-medium">
+                  (Willingness to learn, integrity)
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skill Section End -->
+
+    <!-- Portfolio Section Start -->
+    <section id="portfolio" class="pt-16 pb-24 font-montserrat bg-[#252a2f]">
+      <div class="container">
+        <div class="text-center">
+          <h3
+            class="text-xl text-gray-300 green-unline tracking-wider font-outfit font-semibold"
+          >
+            Port<span class="text-cyan-500">folio</span>
+          </h3>
+          <div class="flex flex-wrap justify-evenly">
+            <div
+              id="todolist"
+              class="w-full md:w-1/2 p-4 overflow-hidden scale-small rounded-md"
+            >
+              <a href="https://nizarcode.github.io/todolist" target="_blank">
+                <img
+                  src="./dist/img/todolist.jpg"
+                  alt="todolist"
+                  class="m-4 mx-auto hover:scale-[1.2] transition duration-500"
+                />
+                <h5
+                  class="inline-block text-lg p-1 text-gray-300 border-slate-800 border-2 hover:bg-cyan-500 hover:text-white transition duration-500 rounded-md"
+                >
+                  Todo-list app (2024)
+                </h5>
+              </a>
+              <p class="text-sm text-gray-300">
+                Responsive todolist application that uses local storage from
+                each user. This app is built with react and tailwind
+              </p>
+            </div>
+            <div
+              id="photograph"
+              class="w-full md:w-1/2 p-4 overflow-hidden scale-small rounded-md"
+            >
+              <a href="https://nizarcode.github.io/photograph" target="_blank">
+                <img
+                  src="./dist/img/photography.jpg"
+                  alt="photograph-nizar"
+                  class="m-4 mx-auto hover:scale-[1.2] transition duration-500"
+                />
+                <h5
+                  class="inline-block text-lg p-1 text-gray-300 border-slate-800 border-2 hover:bg-cyan-500 hover:text-white transition duration-500 rounded-md"
+                >
+                  Photograph Website (2021)
+                </h5>
+              </a>
+              <p class="text-sm text-gray-300">
+                I'm used Html, JQUERY and Materialize (Css framework) to build
+              </p>
+            </div>
+            <div
+              id="nizamart"
+              class="w-full md:w-1/2 p-4 overflow-hidden scale-small rounded-md"
+            >
+              <a href="https://nizarcode.github.io/nizamart" target="_blank">
+                <img
+                  src="./dist/img/nizamart.jpg"
+                  alt="nizamart"
+                  class="m-4 mx-auto hover:scale-[1.2] transition duration-500"
+                />
+                <h5
+                  class="inline-block text-lg p-1 text-gray-300 border-slate-800 border-2 hover:bg-cyan-500 hover:text-white transition duration-500 rounded-md"
+                >
+                  Nizamart - Grocery's Online Shop (2025)
+                </h5>
+              </a>
+              <p class="text-sm text-gray-300">
+                Online shop application for shopping for groceries. this
+                application is built with react and tailwind
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section End -->
+
+    <!-- Contact Section Start -->
+    <section
+      id="contact"
+      class="pt-16 pb-16 px-2 bg-gray-700 inner-custom font-outfit"
+    >
+      <div id="contact-section" class="container slide-in-bottom">
+        <div class="text-center">
+          <h3 class="font-semibold green-unline text-gray-300 text-xl">
+            <span class="text-cyan-400">Contact</span> Us
+          </h3>
+        </div>
+        <div class="w-full pt-16 md:w-1/2 mx-auto">
+          <form action="https://formspree.io/f/xzblywkd" method="POST">
+            <label for="name" class="font-normal text-lg text-cyan-500"
+              >Name</label
+            >
+            <input
+              id="name"
+              name="name"
+              class="w-full text-slate-800 text-sm px-4 rounded-md my-1 h-8 input mb-6"
+              type="text"
+              placeholder="Your name . ."
+            />
+            <label for="email" class="font-normal text-lg text-cyan-500"
+              >Email</label
+            >
+            <input
+              id="email"
+              name="email"
+              class="w-full text-slate-800 text-sm px-4 rounded-md my-1 h-8 input mb-6"
+              type="text"
+              placeholder="Your email . ."
+            />
+            <label for="message" class="font-normal text-lg text-cyan-500"
+              >Message</label
+            >
+            <textarea
+              id="message"
+              name="message"
+              class="w-full text-slate-800 text-sm px-4 rounded-md my-1 h-16 input mb-6"
+              type="text"
+            ></textarea>
+            <div class="text-center">
+              <button
+                class="py-1 inline-block px-7 bg-cyan-500 rounded-full font-semibold text-white hover-style mx-auto"
+                type="submit"
+              >
+                Send
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer class="bg-gray-900 font-montserrat">
+      <div class="container p-8 text-center">
+        <div class="w-full text-slate-300 text-xs">
+          <div class="w-full text-center mx-auto py-6">
+            <a
+              href="https://github.com/nizarcode"
+              class="inline-block mx-[10px] md:mx-8 w-4"
+              target="_blank"
+            >
+              <svg
+                viewBox="0 0 20 20"
+                class="w-6 md:w-8 media-hover"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                fill="#06B6D4"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <title>github</title>
+                  <defs></defs>
+                  <g
+                    id="Page-1"
+                    stroke="none"
+                    stroke-width="1"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <g
+                      id="Dribbble-Light-Preview"
+                      transform="translate(-140.000000, -7559.000000)"
+                      fill="#06B6D4"
+                    >
+                      <g
+                        id="icons"
+                        transform="translate(56.000000, 160.000000)"
+                      >
+                        <path
+                          d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
+                          id="github-[#142]"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <a
+              href="https://x.com/ni_za_ru/"
+              class="inline-block mx-[10px] md:mx-8 w-4"
+              target="_blank"
+            >
+              <svg
+                role="img"
+                class="w-6 md:w-8 media-hover"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>X</title>
+                <path
+                  fill="#06B6D4"
+                  d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"
+                />
+              </svg>
+            </a>
+            <a
+              href="http://line.me/ti/p/~nizar_neko"
+              class="inline-block mx-[10px] md:mx-8 w-4"
+              target="_blank"
+            >
+              <svg
+                viewBox="0 -55 256 256"
+                class="w-6 md:w-8 media-hover"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                preserveAspectRatio="xMidYMid"
+                fill="#06B6D4"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g>
+                    <path
+                      d="M72.2009141,1.42108547e-14 C112.076502,1.42108547e-14 144.399375,32.5485469 144.399375,72.6964154 C144.399375,112.844284 112.074049,145.390378 72.2009141,145.390378 C32.327779,145.390378 0,112.844284 0,72.6964154 C0,32.5485469 32.325326,1.42108547e-14 72.2009141,1.42108547e-14 Z M187.500628,4.25836743 C207.438422,4.25836743 223.601085,34.8960455 223.601085,72.6964154 L223.603538,72.6964154 C223.603538,110.486973 207.440875,141.134463 187.503081,141.134463 C167.565287,141.134463 151.402624,110.486973 151.402624,72.6964154 C151.402624,34.9058574 167.562834,4.25836743 187.500628,4.25836743 Z M243.303393,11.3867175 C250.314,11.3867175 256,38.835526 256,72.6964154 C256,106.547493 250.316453,134.006113 243.303393,134.006113 C236.290333,134.006113 230.609239,106.554852 230.609239,72.6964154 C230.609239,38.837979 236.292786,11.3867175 243.303393,11.3867175 Z"
+                      fill="#06B6D4"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <a
+              href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=ahmadnizar238@gmail.com"
+              class="inline-block mx-[10px] md:mx-8 w-4"
+              target="_blank"
+            >
+              <svg
+                role="img"
+                class="w-6 md:w-8 media-hover"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Gmail</title>
+                <path
+                  fill="#06B6D4"
+                  d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://instagram.com/ni_za_ru/"
+              class="inline-block mx-[10px] md:mx-8 w-4"
+              target="_blank"
+            >
+              <svg
+                role="img"
+                class="w-6 md:w-8 media-hover"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Instagram</title>
+                <path
+                  fill="#06B6D4"
+                  d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                />
+              </svg>
+            </a>
+          </div>
+          &copy;2025 Ahmad Nizar
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="./dist/js/script.js"></script>
+  </body>
+</html>
